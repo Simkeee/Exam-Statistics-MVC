@@ -1,0 +1,98 @@
+.divA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    width: 80%;
+    margin: 2% auto;
+    padding: 5%;
+    background: rgb(36, 32, 32);
+    border-radius: 30px;
+}
+h1 ,h2{
+    color: rgb(179, 179, 207);
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+span {
+    color: orange;
+}
+.divA1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    border: 2px solid white;
+    background: rgb(45, 29, 151);
+}
+.divA2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    width: 30%;
+    height: 50px;
+    padding: 5px;
+    background: rgb(151, 29, 29);
+    border: 2px solid white;
+}
+.divB {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    margin: 0% auto;
+    padding: 5%;
+    background: rgb(216, 201, 201);
+    border-radius: 30px;
+    gap: 5px;
+}
+
+input {
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 3px #ccc;
+    cursor: crosshair;
+}
+#name{
+    width: 30%;
+}
+#grade{
+    width: 10%;
+}
+button {
+    width: 10%;
+    padding: 10px 0;
+    background-color: rgb(195, 107, 107);
+    border: none;
+    border-radius: 10px;
+    color: rgb(13, 74, 113);
+    cursor: pointer;
+}
+.divC{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10%;
+    margin: 5% 10%;
+    width: 80%;
+    height: 600px;
+}
+#divC1{
+        width: 100%;
+        height: 500px;
+        margin-bottom: 5px;
+        background-color: rgb(44, 25, 3);
+        font-size:large;
+        color: rgb(171, 171, 223);
+}
